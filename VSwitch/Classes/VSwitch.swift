@@ -129,7 +129,13 @@ public class VSwitch: UIView {
     public var animationSpringDamping: CGFloat = 0.75
     public var animationInitialSpringVelocity: CGFloat = 0.0
     
-    private(set) open var selectedIndex:Int?
+    private(set) open var selectedIndex:Int? {
+        didSet {
+            selectedChanged?(selectedIndex)
+        }
+    }
+    
+    public var selectedChanged:((Int?)->Void)?
     
     private var panGes:UIPanGestureRecognizer!
     
