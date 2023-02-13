@@ -1,0 +1,6 @@
+framework module VSwitch {
+  umbrella header "VSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}

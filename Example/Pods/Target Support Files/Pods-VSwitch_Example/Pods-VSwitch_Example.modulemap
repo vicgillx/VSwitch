@@ -1,0 +1,6 @@
+framework module Pods_VSwitch_Example {
+  umbrella header "Pods-VSwitch_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
