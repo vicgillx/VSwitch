@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'VSwitch'
   s.version          = '1.0'
-  s.summary          = 'A short description of VSwitch.'
+  s.summary          = 'VSwitch. Custom UISWitch'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,11 +32,5 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'VSwitch/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'VSwitch' => ['VSwitch/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = '5.0'
 end
